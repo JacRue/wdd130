@@ -189,6 +189,10 @@ main {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+
+/* 2nd website page styles below */
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
