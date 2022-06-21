@@ -285,7 +285,7 @@ body {
 
 .box-1-info {
     display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr;
     grid-auto-rows: minmax(100px, auto);
     column-gap: 1em;
 }
