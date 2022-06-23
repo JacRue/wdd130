@@ -13,6 +13,10 @@ img {
     margin: 0 auto;
 }
 
+.nav-font {
+    font-size: x-large
+} 
+
 nav a {
     text-align: center;
     color: #ffd700;
