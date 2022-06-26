@@ -303,7 +303,7 @@ main {
 
 .cont-pg2-a {
     display: grid;
-    grid-column: 1 / 6;
+    grid-column: 1 / 11;
     grid-row: 5;
     text-align: center;
     margin-top: 80px;
