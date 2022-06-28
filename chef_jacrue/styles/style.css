@@ -14,7 +14,9 @@ img {
 }
 
 .nav-font {
-    font-size: x-large
+    font-size:xx-large;
+    justify-self:normal;
+    margin-right: 120px;
 } 
 
 nav a {
@@ -267,10 +269,11 @@ main {
 
 .cont-pg1-a {
     display: grid;
-    grid-column: 6 / 11;
+    grid-column: 7 / 11;
     grid-row: 2 / 4;
-    text-align: center;
-    margin-top: 80px;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 100px;
     text-shadow: 5px 5px 10px #ffd700;
 }
 
@@ -278,7 +281,7 @@ main {
     display: grid;
     grid-column: 1 / 6;
     grid-row: 4 / 7;
-    text-align: center;
+    text-align: left;
     margin-top: 200px;
     text-shadow: 5px 5px 10px #ffd700;
 }
@@ -293,9 +296,12 @@ main {
     box-shadow: 5px 5px 10px #000000;
 }
 
-.img-rose {
+.img-gold {
     grid-column: 1 / 11;
     grid-row: 9;
+    height: 1000px;
+    width: 2000px;
+    object-fit: cover ;
     margin-right: 20px;
     border: #ffd700 solid;
     box-shadow: 5px 5px 10px #000000;
@@ -305,7 +311,7 @@ main {
     display: grid;
     grid-column: 1 / 11;
     grid-row: 5;
-    text-align: center;
+    text-align: left;
     margin-top: 80px;
     text-shadow: 5px 5px 10px #ffd700; 
 }
@@ -332,7 +338,7 @@ main {
     display: grid;
     grid-column: 1 / 6;
     grid-row: 4 / 9;
-    text-align: center;
+    text-align: left;
     margin-top: 400px;
     margin-right: 20px;
     text-shadow: 5px 5px 10px #ffd700;
