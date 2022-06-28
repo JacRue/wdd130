@@ -348,17 +348,17 @@ main {
 }
 
 .smoke-apple {
-    height: 1000px;
-    width: 2000px;
+    max-height: 900px;
+    width: 900px;
     object-fit: cover ;
     margin-right: 20px;
     border: #000000 solid;
     box-shadow: 5px 5px 10px #000000;
 }
 
-.fire {
+.match {
     height: 1000px;
-    width: 2000px;
+    width: 900px;
     object-fit: contain ;
     margin-right: 20px;
     border: #000000 solid;
@@ -366,7 +366,7 @@ main {
 }
 
 @media screen and (max-width: 900px) {
-    /* #hero, .home-grid {
+     #hero, .home-grid {
         display: block;
         height: auto;
     }
@@ -404,5 +404,5 @@ main {
     }
     footer {
         margin-top: 25px;
-    } */
+    } 
 }
