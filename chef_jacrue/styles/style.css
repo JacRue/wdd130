@@ -289,10 +289,11 @@ main {
 
 .cont-pg1-a {
     grid-column: 7 / 11;
-    grid-row: 2 / 4;
+    grid-row: 1 / 4;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-right: 100px;
+    margin-bottom: 10px;
     text-shadow: 5px 5px 10px #ffd700;
 }
 
@@ -300,7 +301,7 @@ main {
     grid-column: 1 / 6;
     grid-row: 4 / 7; 
     text-align: left;
-    margin-top: 200px;
+    margin-right: 10px;
     text-shadow: 5px 5px 10px #ffd700;
 }
 
@@ -355,10 +356,11 @@ main {
 .cont-pg3-a {
     display: grid;
     grid-column: 1 / 6;
-    grid-row: 4 / 7;
+    grid-row: 4;
     text-align: left;
-    margin-top: 400px;
+    margin-top: 10px;
     margin-right: 20px;
+    margin-bottom: 600px;
     text-shadow: 5px 5px 10px #ffd700;
 }
 
