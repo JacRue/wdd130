@@ -14,16 +14,17 @@ img {
 }
 
 .nav-font {
-    font-size:xx-large;
+    font-size: 36px;
     justify-self:normal;
     margin-right: 120px;
+    letter-spacing: 2px;
 } 
 
 nav a {
     text-align: center;
     color: #ffd700;
     text-decoration: none;
-    padding: 35px;
+    padding: 1em;
 }
 
 #hero-msg h1 {
@@ -70,8 +71,8 @@ header {
 }
 
 nav a:hover {
-    background-color: #000000;
-    color: #04ddfa;
+    background-color: #ffd700;
+    color: #000000;
     transform: scale(1.1);
 }
 
@@ -158,10 +159,12 @@ h2 {
 
 p {
     color: #000000;
-}
-
-p:hover {
-    transform: scale(1.1);
+    background-color: #ffd700;
+    border: #000000 solid;
+    box-shadow: 5px 5px 10px #000000;
+    padding: 0 1em;
+    margin: 0;
+    font-size: 18px;
 }
 
 .msg p {
@@ -285,7 +288,6 @@ main {
 }
 
 .cont-pg1-a {
-    display: grid;
     grid-column: 7 / 11;
     grid-row: 2 / 4;
     text-align: left;
@@ -295,9 +297,8 @@ main {
 }
 
 .cont-pg1-b {
-    display: grid;
     grid-column: 1 / 6;
-    grid-row: 4 / 7;
+    grid-row: 4 / 7; 
     text-align: left;
     margin-top: 200px;
     text-shadow: 5px 5px 10px #ffd700;
@@ -354,7 +355,7 @@ main {
 .cont-pg3-a {
     display: grid;
     grid-column: 1 / 6;
-    grid-row: 4 / 9;
+    grid-row: 4 / 7;
     text-align: left;
     margin-top: 400px;
     margin-right: 20px;
