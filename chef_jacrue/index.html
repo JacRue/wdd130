@@ -10,6 +10,32 @@
 </head>
 
 <body>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <a href="why_this_site.html">About</a>
+            <a href="what_we_need_to_know.html">Services</a>
+            <a href="#">Contact</a>
+        </div>
+
+    </div>
+
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open slide</span>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
     <div id="content">
         <header>
             <a id="logo_link" href="index.html">
