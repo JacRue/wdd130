@@ -131,7 +131,7 @@ footer {
     color: #ffd700;
     grid-column: 1 / 11;
     grid-row: 1;
-    /*background: var(--accent1-color) */
+    background: #ffd700; 
 }
 
 .hr-2 {
@@ -140,7 +140,7 @@ footer {
     color: #ffd700;
     grid-column: 1 / 11;
     grid-row: 7;
-    /*background: var(--accent1-color) */
+    background: #ffd700; 
 }
 
 h4 {
